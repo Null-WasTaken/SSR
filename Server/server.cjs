@@ -26,5 +26,5 @@ app.use('^/$' , (req , res , next) => {
 app.use(express.static(path.resolve(__dirname, '..' , 'dist')))
 
 app.listen(PORT,() => {
-    console.log(`App Launch on ${PORT}`)
+    console.log(`SSR version of the website is now availble at  127.0.0.1:${PORT}`)
 })
